@@ -1,0 +1,6 @@
+image: node:8.11
+
+test:
+  stage: test
+  script:
+    - npm run test:e2e
